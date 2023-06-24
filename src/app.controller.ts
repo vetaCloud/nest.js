@@ -23,13 +23,13 @@ export class AppController {
         message: response
       });
     }
-      catch(err){
-        console.log(err)
-        return res.status(500).send({
-          status: 500,
-          success: false,
-          message: "Something went wrong",
-      });
-      }
+    catch(err){
+      console.log(err)
+      return res.status(500).send({
+        status: 500,
+        success: false,
+        message: "Something went wrong",
+    });
+    }
   }
 }

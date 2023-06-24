@@ -20,6 +20,5 @@ export class AppService {
     })
     const filePayload = uploadResponse.data.file
     return { filePayload }
-    
   }
 }
